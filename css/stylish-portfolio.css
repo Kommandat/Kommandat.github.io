@@ -27,6 +27,7 @@ body {
     padding: 0;
     font-size: 4.5em;
     font-weight: 700;
+    color: #fff;
 }
 
 /* Custom Button Styles */
@@ -36,10 +37,10 @@ body {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-    border: 2px solid #000;
+    border: 2px solid #fff;
     border-radius: 100%!important;
     font-size: 40px;
-    color: #000;
+    color: #fff;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -149,6 +150,14 @@ hr.small {
     right: 0;
 }
 
+.navbar-custom {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #000;
+}
+
 #sidebar-wrapper.active {
     right: 250px;
     width: 250px;
@@ -181,6 +190,7 @@ hr.small {
 
 .about {
     padding: 50px 0;
+    color: ;
 }
 
 /* Services */
