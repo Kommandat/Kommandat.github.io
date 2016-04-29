@@ -12,8 +12,16 @@ body {
     height: 100%;
 }
 
+a {
+    text-decoration: none!important;
+}
+
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.white {
+    color: #fff;
 }
 
 .text-vertical-center {
