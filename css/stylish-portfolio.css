@@ -20,6 +20,14 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.black {
+    color: #333;
+}
+
+.black:hover {
+    color: #000;
+}
+
 .white {
     color: #fff;
 }
